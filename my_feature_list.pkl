@@ -9,4 +9,8 @@ aS'exercised_stock_options'
 p4
 aS'total_stock_value'
 p5
+aS'deferred_income'
+p6
+aS'long_term_incentive'
+p7
 a.
