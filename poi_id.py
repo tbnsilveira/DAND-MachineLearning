@@ -3,6 +3,9 @@
 ## Machine Learning algorithm to identify Enron Employees who may have committed fraud 
 ## based on the public Enron financial and email dataset.
 
+## PLEASE REFER TO 'POI_ANALYSIS.IPYNB' IN ORDER TO GET THE FULL PROJECT ANSWERS. 
+## THE SAME NOTEBOOK IS ABLE TO CREATE AND MODIFY THE FILES REQUIRED FOR 'TESTER.PY
+
 import sys
 import pickle
 sys.path.append("tools/")
@@ -57,7 +60,5 @@ features_train, features_test, labels_train, labels_test = \
 ### generates the necessary .pkl files for validating your results.
 
 dump_classifier_and_data(clf, my_dataset, features_list)
-
-
 
 
